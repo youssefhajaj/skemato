@@ -1,177 +1,389 @@
-<p align="center">
-  <img src="https://skemato.com/logo.png" alt="Skemato Logo" width="80" height="80">
+<div align="center">
+
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=200&section=header&text=Skemato&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Visual%20Database%20Schema%20Designer&descAlignY=55&descSize=20"/>
+
+<!-- Logo -->
+<img src="https://skemato.com/logo.png" alt="Skemato Logo" width="120" height="120" style="margin-top: -50px;">
+
+<!-- Tagline -->
+<h3>Design databases visually. Export to SQL. Generate migrations.</h3>
+
+<!-- Badges Row 1 -->
+<p>
+  <a href="https://skemato.com"><img src="https://img.shields.io/badge/🌐_Website-skemato.com-6366f1?style=for-the-badge" alt="Website"/></a>
+  <a href="https://skemato.com/designer"><img src="https://img.shields.io/badge/🚀_Try_Free-No_Signup-10b981?style=for-the-badge" alt="Try Free"/></a>
+  <a href="https://skemato.com/docs"><img src="https://img.shields.io/badge/📚_Docs-Documentation-3b82f6?style=for-the-badge" alt="Documentation"/></a>
 </p>
 
-<h1 align="center">Skemato</h1>
-
-<p align="center">
-  <strong>Visual Database Schema Designer</strong><br>
-  Design your database visually. Export to SQL. Generate migrations.
+<!-- Badges Row 2 -->
+<p>
+  <img src="https://img.shields.io/badge/✓_Databases-5_Supported-blue?style=flat-square" alt="5 Databases">
+  <img src="https://img.shields.io/badge/✓_Frameworks-4_Migrations-green?style=flat-square" alt="4 Frameworks">
+  <img src="https://img.shields.io/badge/✓_Languages-7_Available-orange?style=flat-square" alt="7 Languages">
+  <img src="https://img.shields.io/badge/✓_Users-1.7K+-purple?style=flat-square" alt="1.7K+ Users">
+  <img src="https://img.shields.io/badge/✓_Price-Free_Tier-brightgreen?style=flat-square" alt="Free Tier">
 </p>
 
-<p align="center">
-  <a href="https://skemato.com">Website</a> •
-  <a href="https://skemato.com/designer">Try Free</a> •
-  <a href="https://skemato.com/docs">Documentation</a> •
-  <a href="https://skemato.com/blog">Blog</a>
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/databases-5-blue" alt="5 Databases">
-  <img src="https://img.shields.io/badge/migrations-4_frameworks-green" alt="4 Frameworks">
-  <img src="https://img.shields.io/badge/languages-7-orange" alt="7 Languages">
-  <img src="https://img.shields.io/badge/price-free_tier-brightgreen" alt="Free Tier">
-</p>
+<!-- Hero Screenshot -->
+<img src="screenshots/hero.png" alt="Skemato Homepage" width="90%" style="border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);"/>
+
+<br/><br/>
+
+<!-- Quick Links -->
+<a href="https://skemato.com/designer"><img src="https://img.shields.io/badge/Start_Designing-It's_Free-6366f1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBvbHlnb24gcG9pbnRzPSI1IDMgMTkgMTIgNSAyMSA1IDMiPjwvcG9seWdvbj48L3N2Zz4=" alt="Start Designing"/></a>
+
+</div>
 
 ---
 
-## What is Skemato?
+## 🎯 What is Skemato?
 
-Skemato is a **free online database schema designer** that lets you create Entity Relationship Diagrams (ERD) with an intuitive drag-and-drop interface. Design your database visually, define relationships between tables, and export production-ready SQL for any major database system.
+**Skemato** is a powerful, free online database schema designer that transforms how developers design databases. Create beautiful Entity Relationship Diagrams (ERD) with an intuitive drag-and-drop interface, define relationships visually, and export production-ready code instantly.
 
-**No installation required** — works directly in your browser.
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
-  <img src="screenshots/hero.png" alt="Skemato Homepage" width="100%">
-</p>
+### ✨ Why Skemato?
 
----
+- 🎨 **Visual First** — No more writing CREATE TABLE by hand
+- ⚡ **Instant Export** — SQL code generated in real-time
+- 🤖 **AI Powered** — Describe your app, get a database
+- ☁️ **Cloud Sync** — Access from anywhere
+- 🆓 **Free Forever** — No credit card required
 
-## Key Features
+</td>
+<td width="50%">
 
-### Visual Database Designer
-Create tables with drag-and-drop. Define columns, data types, primary keys, foreign keys, and constraints — all visually.
+### 🎯 Perfect For
 
-<p align="center">
-  <img src="screenshots/designer.png" alt="Visual Schema Designer" width="100%">
-</p>
+- 👨‍💻 **Developers** — Speed up your workflow
+- 🎓 **Students** — Learn database design visually
+- 🏢 **Teams** — Collaborate on schema design
+- 🚀 **Startups** — Prototype databases quickly
+- 📊 **Architects** — Document existing systems
 
-### 5 SQL Dialects
-Export your schema to any major database:
-- **MySQL**
-- **PostgreSQL**
-- **SQLite**
-- **SQL Server**
-- **Oracle**
-
-<p align="center">
-  <img src="screenshots/sql-preview.png" alt="SQL Code Preview" width="100%">
-</p>
-
-### 4 Migration Frameworks
-Generate ready-to-use migration files for popular frameworks:
-- **Laravel** (PHP)
-- **Django** (Python)
-- **Prisma** (TypeScript/Node.js)
-- **TypeORM** (TypeScript)
-
-### AI-Powered Design
-Describe your application in plain English and let AI create the database schema for you.
-
-> "I need a database for an e-commerce app with products, categories, and orders"
-
-<p align="center">
-  <img src="screenshots/ai-assistant.png" alt="AI Assistant" width="100%">
-</p>
-
-### Data Browser & Generator
-View, edit, and generate realistic fake data for your tables. Export data as SQL INSERT statements or CSV.
-
-<p align="center">
-  <img src="screenshots/data-browser.png" alt="Data Browser" width="100%">
-</p>
-
-### Cloud Sync
-Sign in with Google to save your projects to the cloud. Access your schemas from any device, anytime.
+</td>
+</tr>
+</table>
 
 ---
 
-## How It Works
+## 🖥️ The Visual Designer
 
-<p align="center">
-  <img src="screenshots/how-it-works.png" alt="How It Works" width="100%">
-</p>
+Design your database schema with our intuitive drag-and-drop canvas. Create tables, define columns, and connect relationships — all without writing a single line of SQL.
 
-1. **Create Tables** — Drag and drop to create tables instantly
-2. **Define Columns** — Add columns with proper data types and constraints
-3. **Add Relationships** — Draw connections between tables to define foreign keys
-4. **Export & Deploy** — Generate SQL or framework migrations with one click
+<div align="center">
+<img src="screenshots/designer.png" alt="Visual Schema Designer" width="95%" style="border-radius: 8px;"/>
+</div>
 
----
+<br/>
 
-## Export Formats
-
-| Format | Description |
-|--------|-------------|
-| **SQL** | CREATE TABLE statements with constraints and indexes |
-| **PNG** | High-quality diagram image for documentation |
-| **SVG** | Scalable vector graphic |
-| **JSON** | Complete project file for backup/sharing |
-| **Migrations** | Framework-specific migration files |
-
----
-
-## Pricing
-
-| Plan | Price | Projects | Tables | Features |
-|------|-------|----------|--------|----------|
-| **Free** | $0 | 1 | 10 | SQL export, Cloud sync |
-| **Pro** | $15/mo | 5 | 50 | + PNG/JSON exports, AI data generation |
-| **Max** | $29/mo | 15 | 200 | + AI Assistant, All exports, SVG, Migrations |
-
-**No credit card required** for the free plan. [Start designing now →](https://skemato.com/designer)
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/📦-Create_Tables-6366f1?style=for-the-badge" alt="Create Tables"/><br/>
+<sub>Drag & drop to create</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/📝-Define_Columns-10b981?style=for-the-badge" alt="Define Columns"/><br/>
+<sub>20+ data types</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/🔗-Relationships-f59e0b?style=for-the-badge" alt="Relationships"/><br/>
+<sub>1:1, 1:N, N:M</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/⚡-Export-ef4444?style=for-the-badge" alt="Export"/><br/>
+<sub>One-click deploy</sub>
+</td>
+</tr>
+</table>
 
 ---
 
-## Supported Languages
+## 🗄️ 5 Database Dialects
 
-Skemato is available in 7 languages:
+Export your schema to any major database system with dialect-specific syntax, proper data types, and optimized code.
 
-- English
-- Español (Spanish)
-- Deutsch (German)
-- Русский (Russian)
-- 中文 (Chinese)
-- العربية (Arabic)
-- हिन्दी (Hindi)
+<div align="center">
 
----
+| | Database | Status | Features |
+|:---:|:---|:---:|:---|
+| <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" width="100"/> | **MySQL** | ✅ Full Support | InnoDB, charset, collation |
+| <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" width="100"/> | **PostgreSQL** | ✅ Full Support | SERIAL, UUID, JSONB |
+| <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" width="100"/> | **SQLite** | ✅ Full Support | Lightweight, embedded |
+| <img src="https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" width="100"/> | **SQL Server** | ✅ Full Support | IDENTITY, NVARCHAR |
+| <img src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" width="100"/> | **Oracle** | ✅ Full Support | NUMBER, VARCHAR2 |
 
-## Resources
+</div>
 
-- [Documentation](https://skemato.com/docs) — Complete user guide
-- [Blog](https://skemato.com/blog) — Database design tutorials and best practices
-- [FAQ](https://skemato.com/#faq) — Frequently asked questions
+<br/>
 
-### Popular Blog Articles
-- [Database Schema Design: Complete Guide](https://skemato.com/blog/database-schema-design-complete-guide-2025)
-- [MySQL vs PostgreSQL Comparison](https://skemato.com/blog/mysql-vs-postgresql-comparison-2025)
-- [How to Create ERD Diagrams](https://skemato.com/blog/entity-relationship-diagram-tutorial)
-- [Database Normalization Explained](https://skemato.com/blog/database-normalization-guide-1nf-2nf-3nf)
+<div align="center">
+<img src="screenshots/sql-preview.png" alt="SQL Code Preview" width="90%" style="border-radius: 8px;"/>
+</div>
 
 ---
 
-## Contact & Support
+## 🔧 4 Migration Frameworks
 
-- **Email**: contactskemato@gmail.com
-- **Website**: [skemato.com](https://skemato.com)
-- **Contact Form**: [skemato.com/#contact](https://skemato.com/#contact)
+Generate production-ready migration files for your favorite framework. Just select your framework and download.
+
+<div align="center">
+
+| Framework | Language | File Generated |
+|:---:|:---|:---|
+| ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) | PHP | `database/migrations/*.php` |
+| ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) | Python | `models.py` with Django ORM |
+| ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) | TypeScript | `schema.prisma` |
+| ![TypeORM](https://img.shields.io/badge/-TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white) | TypeScript | Entity classes with decorators |
+
+</div>
 
 ---
 
-## Legal
+## 🤖 AI-Powered Database Design
 
-- [Privacy Policy](https://skemato.com/privacy)
-- [Terms of Service](https://skemato.com/terms)
+Simply describe your application in plain English, and our AI assistant will design the perfect database schema for you.
+
+<div align="center">
+<img src="screenshots/ai-assistant.png" alt="AI Assistant" width="90%" style="border-radius: 8px;"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+```
+💬 "I need a database for an e-commerce app with products, categories, and orders"
+
+✨ AI generates: products, categories, orders, order_items, customers
+   with all relationships and proper data types!
+```
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 AI Features
+
+- **Natural Language** → Describe in plain English
+- **Instant Generation** → Tables created in seconds
+- **Best Practices** → Follows DB design patterns
+- **Conversation Memory** → Refine with follow-ups
+
+</td>
+<td width="50%">
+
+### 💡 Example Prompts
+
+- *"Create a blog with users, posts, and comments"*
+- *"Design a school management system"*
+- *"I need tables for a social media app"*
+- *"Add soft deletes to all tables"*
+
+</td>
+</tr>
+</table>
 
 ---
 
-<p align="center">
-  Made with care by <a href="https://www.linkedin.com/in/youssef-hajaj/">Youssef Hajaj</a>
-</p>
+## 📊 Data Browser & Generator
 
-<p align="center">
-  <a href="https://skemato.com/designer">
-    <img src="https://img.shields.io/badge/Try_Skemato-Free-blue?style=for-the-badge" alt="Try Skemato Free">
-  </a>
-</p>
+View, edit, and generate realistic fake data for testing. Export your data as SQL INSERT statements or CSV files.
+
+<div align="center">
+<img src="screenshots/data-browser.png" alt="Data Browser" width="90%" style="border-radius: 8px;"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+| Feature | Description |
+|:---:|:---|
+| 👁️ **View Data** | Browse all your table data in one place |
+| ✏️ **Edit Inline** | Click any cell to edit directly |
+| 🎲 **Generate Fake Data** | AI-powered realistic data generation |
+| 📤 **Export** | SQL INSERT or CSV download |
+
+</div>
+
+---
+
+## 📦 Export Formats
+
+<div align="center">
+
+| Format | Extension | Use Case | Plan |
+|:---:|:---:|:---|:---:|
+| 📄 **SQL** | `.sql` | Database deployment | Free |
+| 🖼️ **PNG** | `.png` | Documentation, presentations | Pro |
+| 🎨 **SVG** | `.svg` | Scalable diagrams | Max |
+| 📋 **JSON** | `.json` | Backup, version control | Pro |
+| 📊 **CSV** | `.csv` | Data export | Max |
+| 🔄 **Migrations** | `.php/.py/.ts` | Framework integration | Max |
+
+</div>
+
+---
+
+## 💎 Pricing
+
+<div align="center">
+
+| | Free | Pro | Max |
+|:---|:---:|:---:|:---:|
+| **Price** | **$0** | **$15**/mo | **$29**/mo |
+| Projects | 1 | 5 | 15 |
+| Tables per project | 10 | 50 | 200 |
+| Visual Designer | ✅ | ✅ | ✅ |
+| All SQL Dialects | ✅ | ✅ | ✅ |
+| Cloud Sync | ✅ | ✅ | ✅ |
+| SQL Export | ✅ | ✅ | ✅ |
+| PNG Export | ❌ | ✅ | ✅ |
+| JSON Export | ❌ | ✅ | ✅ |
+| SVG Export | ❌ | ❌ | ✅ |
+| Framework Migrations | ❌ | ❌ | ✅ |
+| AI Data Generation | ❌ | ✅ | ✅ |
+| **AI Assistant** | ❌ | ❌ | ✅ |
+| | [Start Free](https://skemato.com/designer) | [Get Pro](https://skemato.com/#pricing) | [Get Max](https://skemato.com/#pricing) |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+> 💡 **No credit card required** for the free plan. Start designing immediately!
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
+![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=for-the-badge&logo=react&logoColor=white)
+
+### Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### AI & Services
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![LemonSqueezy](https://img.shields.io/badge/LemonSqueezy-FFC233?style=for-the-badge&logoColor=black)
+
+</div>
+
+---
+
+## 🌍 Available in 7 Languages
+
+<div align="center">
+
+| | Language | Code |
+|:---:|:---|:---:|
+| 🇺🇸 | English | `en` |
+| 🇪🇸 | Español (Spanish) | `es` |
+| 🇩🇪 | Deutsch (German) | `de` |
+| 🇷🇺 | Русский (Russian) | `ru` |
+| 🇨🇳 | 中文 (Chinese) | `zh` |
+| 🇸🇦 | العربية (Arabic) | `ar` |
+| 🇮🇳 | हिन्दी (Hindi) | `hi` |
+
+</div>
+
+---
+
+## 📚 Resources & Learning
+
+<div align="center">
+
+| Resource | Description |
+|:---|:---|
+| 📖 [Documentation](https://skemato.com/docs) | Complete user guide and tutorials |
+| 📝 [Blog](https://skemato.com/blog) | Database design best practices |
+| ❓ [FAQ](https://skemato.com/#faq) | Frequently asked questions |
+| 📧 [Contact](https://skemato.com/#contact) | Get in touch with support |
+
+</div>
+
+### 📰 Popular Articles
+
+- 📘 [Database Schema Design: The Complete Guide](https://skemato.com/blog/database-schema-design-complete-guide-2025)
+- 🔄 [MySQL vs PostgreSQL: Which to Choose?](https://skemato.com/blog/mysql-vs-postgresql-comparison-2025)
+- 📊 [How to Create ERD Diagrams](https://skemato.com/blog/entity-relationship-diagram-tutorial)
+- 🗂️ [Database Normalization (1NF, 2NF, 3NF)](https://skemato.com/blog/database-normalization-guide-1nf-2nf-3nf)
+- ⚡ [Database Indexing Strategies](https://skemato.com/blog/database-indexing-performance-guide)
+
+---
+
+## 🔒 Security & Privacy
+
+<div align="center">
+
+| | Feature |
+|:---:|:---|
+| 🔐 | **SSL/TLS Encryption** — All data encrypted in transit |
+| 🛡️ | **OWASP Compliant** — Following security best practices |
+| 👤 | **Google OAuth** — Secure authentication |
+| 🗄️ | **Your Data is Yours** — Export anytime, delete anytime |
+
+</div>
+
+---
+
+## 📞 Contact & Support
+
+<div align="center">
+
+<a href="mailto:contactskemato@gmail.com"><img src="https://img.shields.io/badge/Email-contactskemato%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://skemato.com/#contact"><img src="https://img.shields.io/badge/Contact_Form-skemato.com-6366f1?style=for-the-badge" alt="Contact Form"/></a>
+<a href="https://www.linkedin.com/in/youssef-hajaj/"><img src="https://img.shields.io/badge/LinkedIn-Youssef_Hajaj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+
+</div>
+
+---
+
+## 📜 Legal
+
+<div align="center">
+
+[Privacy Policy](https://skemato.com/privacy) • [Terms of Service](https://skemato.com/terms)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you find Skemato useful!
+
+<br/>
+
+<a href="https://skemato.com/designer">
+  <img src="https://img.shields.io/badge/🚀_Start_Designing_Now-It's_Free!-6366f1?style=for-the-badge&logoColor=white" alt="Start Designing" height="50"/>
+</a>
+
+<br/><br/>
+
+**Made with ❤️ by [Youssef Hajaj](https://www.linkedin.com/in/youssef-hajaj/)**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=100&section=footer"/>
+
+</div>
