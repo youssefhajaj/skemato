@@ -272,21 +272,90 @@ View, edit, and generate realistic fake data for testing. Export your data as SQ
 <div align="center">
 
 ### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge&logo=react&logoColor=white)
 ![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=for-the-badge&logo=react&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### Backend
+### Backend & API
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-### AI & Services
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+### Database & Caching
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### AI & Machine Learning
+![Google Gemini](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+### Authentication & Payments
+![Google OAuth](https://img.shields.io/badge/Google_OAuth_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![LemonSqueezy](https://img.shields.io/badge/LemonSqueezy-FFC233?style=for-the-badge&logoColor=black)
 
+### DevOps & Infrastructure
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+
 </div>
+
+---
+
+## 🏗️ Architecture Highlights
+
+<div align="center">
+
+| Component | Technology | Description |
+|:---:|:---|:---|
+| 🎨 **UI Framework** | React 18 + Vite | Fast, modern frontend with HMR |
+| 🔄 **State Management** | Zustand | Lightweight state with persistence |
+| 📊 **Visual Canvas** | React Flow | Interactive node-based diagrams |
+| 🌐 **Internationalization** | i18next | 7 languages with RTL support |
+| ⚡ **API Framework** | FastAPI (Async) | High-performance Python API |
+| 🗄️ **ORM** | SQLAlchemy 2.0 | Async database operations |
+| ✅ **Validation** | Pydantic V2 | Data validation & serialization |
+| 💾 **Caching** | Redis | Rate limiting & response caching |
+| 🔐 **Auth** | Google OAuth 2.0 + JWT | Secure token-based authentication |
+| 💳 **Payments** | LemonSqueezy | Subscription management & webhooks |
+| 🤖 **AI** | Google Gemini API | Natural language schema generation |
+| 📧 **Email** | SMTP (Async) | Transactional emails |
+
+</div>
+
+---
+
+## 💳 Payment System
+
+Secure subscription management powered by **LemonSqueezy**.
+
+<div align="center">
+
+| Feature | Description |
+|:---:|:---|
+| 💰 **Flexible Plans** | Free, Pro ($15/mo), Max ($29/mo) |
+| 🔄 **Subscription Management** | Upgrade, downgrade, cancel anytime |
+| 🌍 **Global Payments** | Credit cards, PayPal, local methods |
+| 🔐 **PCI-DSS Compliant** | Secure payment processing |
+| 📧 **Email Notifications** | Welcome, renewal, expiration alerts |
+| 🔗 **Webhook Integration** | Real-time subscription updates |
+| 🧾 **Instant Access** | Features unlock immediately |
+
+</div>
+
+### Webhook Events Handled
+
+```
+✅ subscription_created    → Welcome email + tier upgrade
+✅ subscription_updated    → Plan change processed
+✅ subscription_cancelled  → Downgrade scheduled
+✅ payment_success         → Renewal confirmation
+✅ payment_failed          → Recovery notification
+```
 
 ---
 
@@ -333,16 +402,59 @@ View, edit, and generate realistic fake data for testing. Export your data as SQ
 
 ## 🔒 Security & Privacy
 
+Built with security-first mindset following **OWASP Top 10** guidelines.
+
 <div align="center">
 
-| | Feature |
-|:---:|:---|
-| 🔐 | **SSL/TLS Encryption** — All data encrypted in transit |
-| 🛡️ | **OWASP Compliant** — Following security best practices |
-| 👤 | **Google OAuth** — Secure authentication |
-| 🗄️ | **Your Data is Yours** — Export anytime, delete anytime |
+| | Security Feature | Implementation |
+|:---:|:---|:---|
+| 🔐 | **SSL/TLS Encryption** | All data encrypted in transit (HTTPS) |
+| 🛡️ | **OWASP Top 10 Compliant** | Protection against common vulnerabilities |
+| 🚫 | **XSS Prevention** | Input sanitization with Bleach library |
+| 🔑 | **SQL Injection Protection** | Parameterized queries via SQLAlchemy ORM |
+| ⏱️ | **Rate Limiting** | 100 requests/minute per IP (Redis-backed) |
+| 🔒 | **JWT Authentication** | Secure token-based sessions (HS256) |
+| 👤 | **Google OAuth 2.0** | No password storage, secure SSO |
+| 🛑 | **CORS Protection** | Strict origin validation |
+| 📋 | **Security Headers** | X-Frame-Options, CSP, HSTS enabled |
+| 📦 | **Request Size Limits** | DoS protection (10MB max) |
+| 🔏 | **Webhook Verification** | HMAC-SHA256 signature validation |
+| 🗄️ | **Data Ownership** | Export anytime, delete anytime |
 
 </div>
+
+### 🛡️ OWASP Protections
+
+<table>
+<tr>
+<td width="50%">
+
+**Injection (A03:2021)**
+- SQLAlchemy ORM for parameterized queries
+- Input validation with Pydantic
+- HTML entity escaping
+
+**Broken Authentication (A07:2021)**
+- Google OAuth 2.0 integration
+- JWT with secure signing
+- Token expiration handling
+
+</td>
+<td width="50%">
+
+**Security Misconfiguration (A05:2021)**
+- Production security checks at startup
+- Secure default configurations
+- CORS whitelist validation
+
+**Rate Limiting & DoS Protection**
+- Redis-backed sliding window
+- IP-based request throttling
+- Automatic IP blocking for abuse
+
+</td>
+</tr>
+</table>
 
 ---
 
