@@ -492,7 +492,7 @@ Built with security-first mindset following **OWASP Top 10** guidelines.
 
 <br/><br/>
 
-**Made with ❤️ by [Youssef Hajaj](https://www.linkedin.com/in/youssef-hajaj/)**
+**By [Youssef Hajaj](https://www.linkedin.com/in/youssef-hajaj/)**
 
 <br/>
 
